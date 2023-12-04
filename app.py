@@ -80,7 +80,7 @@ if user_input:
     # Add the demo response to the state and display it
     st.session_state.messages.append(response_message)
     with st.chat_message("assistant"):
-        st.markdown(response["text"])
         if "images" in response:
             for image in response["images"]:
                 st.image(image)
+        st.markdown(response["text"])
