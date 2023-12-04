@@ -10,22 +10,21 @@ if "messages" not in st.session_state:
 
 # Demo responses for simulation
 demo_responses = {
-    "I want to make an announcement of launching Juggernot's GPT-Agents for all major Social Media channels that will help content marketers have a reliable AI-copilot to help them in the process of writing, designing, and publishing social media posts. ": {
+    "I want to make an announcement of launching Juggernot's GPT-Agents for all major Social Media channels that will help content marketers have a reliable AI-copilot to help them in the process of writing, designing, and publishing social media posts.": {
         "text": "Great, I can help you with that! Here is the copy for your Twitter Post.\n\n 🤖AI For Content Marketing Is Here! \n\n We're excited to unveil Juggernot's GPT-Agent for social media posting. This trustworthy co-pilot is capable of writing, designing, and rapidly publishing posts in just a few minutes. 🚀 \n\n #ContentMarketing #AI #SocialMedia \n\n The copy is made using the Juggernot's brand guidelines: \n - Starts with a hook-line and an enthusiastic tone.\n - Introduces the new service/product clearly.\n - Highlights the main benefits (reliability and time-saving).\n - Ends with relevant hashtags to increase visibility."
-        #    "images": ["./photos/img.png", "./photos/img2.png"],
     },
     "Great. Can you please edit the message by finding different word for “excited” & “unveil” and also replace the word from “trustworthy” to “reliable” Also add a CTA link: https://bit.ly/3G18m4J": {
-        "text": "Got it! Here is the updated copy for your Tweet. \n\n 🤖 **AI For Content Marketing Is Here!** \n\n We're thrilled to announce the launch of Juggernot's GPT-Agent for posting on social media. It's a reliable copilot that can write, design, and publish posts in ⌛ minutes. \n\n Try it out: https://bit.ly/3G18m4J \n\n #ContentMarketing #AI #SocialMedia \n\n We have changed and replaced the words as per your feedback. \n\n Do you want to move ahead with making the creative for this copy?",
+        "text": "Got it! Here is the updated copy for your Tweet. \n\n 🤖 **AI For Content Marketing Is Here!** \n\n We're thrilled to announce the launch of Juggernot's GPT-Agent for posting on social media. It's a reliable copilot that can write, design, and publish posts in ⌛ minutes. \n\n Try it out: https://bit.ly/3G18m4J \n\n #ContentMarketing #AI #SocialMedia \n\n We have changed and replaced the words as per your feedback. \n\n Do you want to move ahead with making the creative for this copy?",
     },
     "Sure, go ahead": {
         "images": ["./photos/dalle1.png"],
         "text": "Creative details: \n\n - **Template type:** We are using “Announcements” template. \n\n - **Brand Colors**: Applied the brand's signature color scheme for visual consistency. \n\n - **Logo Placement**: Strategically positioned the logo for optimal visibility. \n\n - **Font Style**: Employed the brand's official font for textual coherence. \n\n - **Imagery Style**: Selected imagery that aligns with the brand's aesthetic. \n\n - **Compliance with Guidelines**: Ensured all elements adhere to the brand's style guide.",
     },
-    "Replace the people in the image with human robots. ": {
+    "Replace the people in the image with human robots.": {
         "text": "Sure! Here is the updated copy of your creative. \nDo you have any other suggestions?",
         "images": ["./photos/dalle2.png"],
     },
-    "Yes, please turn this into an Ad using template 1 and 4. ": {
+    "Yes, please turn this into an Ad using template 1 and 4.": {
         "text": "Sure, here you go. Let me know if you have any more changes?"
     },
     "No, I'm done": {
