@@ -50,13 +50,14 @@ def get_demo_response(user_input):
 st.title("Content Generator")
 st.write("I can create your posts and content for you")
 
-if "messages" not in st.session_state:
-    st.session_state.messages = []
-
 # Display existing messages in the chat
 for message in st.session_state.messages:
     with st.chat_message(message["role"]):
         st.markdown(message["content"])
+        if "images" in message:  # Display images if present
+            for image in message["images"]:
+                st.image(image)
+
 # Chat input for the user
 user_input = st.chat_input("What is up?")
 if user_input:
@@ -64,12 +65,20 @@ if user_input:
     st.session_state.messages.append({"role": "user", "content": user_input})
     with st.chat_message("user"):
         st.markdown(user_input)
+
     # Get the demo response
     response = get_demo_response(user_input)
+
     # Simulate a delay to mimic processing time
     time.sleep(1)
+
+    # Prepare response message
+    response_message = {"role": "assistant", "content": response["text"]}
+    if "images" in response:  # Add images to the message if present
+        response_message["images"] = response["images"]
+
     # Add the demo response to the state and display it
-    st.session_state.messages.append({"role": "assistant", "content": response["text"]})
+    st.session_state.messages.append(response_message)
     with st.chat_message("assistant"):
         st.markdown(response["text"])
         if "images" in response:
