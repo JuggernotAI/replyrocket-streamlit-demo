@@ -13,8 +13,8 @@ demo_responses = {
     "i want to make an announcement of launching juggernot's gpt-agents for all major social media channels that will help content marketers have a reliable ai-copilot to help them in the process of writing, designing, and publishing social media posts.": {
         "text": "Great, I can help you with that! Here is the copy for your Twitter Post.\n\n 🏆 Succeed at social media by posting frequently using Juggernot's AI [Make a month's worth of posts in minutes ⚡] \n\n We're excited to unveil Juggernot's GPT-Agent for social media posting. This trustworthy co-pilot is capable of writing, designing, and rapidly publishing posts in just a few minutes. 🚀 \n\n #ContentMarketing #AI #SocialMedia \n\n The copy is made using the Juggernot's brand guidelines: \n - Starts with a hook-line and an enthusiastic tone.\n - Introduces the new service/product clearly.\n - Highlights the main benefits (reliability and time-saving).\n - Ends with relevant hashtags to increase visibility. \n\n Do you want to move ahead with making the creative for this copy?"
     },
-    "great. can you please edit the message by finding different words for “excited” & “unveil” and also replace the word from “trustworthy” to “reliable”. \n also add a cta link: https://bit.ly/3G18m4J": {
-        "text": "Got it! Here is the updated copy for your Tweet. \n\n 🏆 Succeed at social media by posting frequently using Juggernot's AI [Make a month's worth of posts in minutes ⚡] \n\n We're thrilled to announce the launch of Juggernot's GPT-Agent for posting on social media. It's a reliable copilot that can write, design, and publish posts in ⌛ minutes. \n\n Try it out: https://bit.ly/3G18m4J \n\n #ContentMarketing #AI #SocialMedia \n\n We have changed and replaced the words as per your feedback. \n\n Do you want to move ahead with making the creative for this copy?",
+    "great. can you please edit the message by finding different words for “excited” & “unveil” and also replace the word from “trustworthy” to “reliable”. \\n also add a cta link: https://bit.ly/3G18m4J": {
+        "text": "Got it! Here is the updated copy for your Tweet. \\n\\n 🏆 Succeed at social media by posting frequently using Juggernot's AI [Make a month's worth of posts in minutes ⚡] \n\n We're thrilled to announce the launch of Juggernot's GPT-Agent for posting on social media. It's a reliable copilot that can write, design, and publish posts in ⌛ minutes. \n\n Try it out: https://bit.ly/3G18m4J \n\n #ContentMarketing #AI #SocialMedia \n\n We have changed and replaced the words as per your feedback. \n\n Do you want to move ahead with making the creative for this copy?",
     },
     "sure, go ahead": {
         "images": ["./photos/va1.png"],
@@ -68,7 +68,7 @@ if user_input:
         st.markdown(user_input)
 
     # Get the demo response
-    response = get_demo_response(user_input.lower().strip())
+    response = get_demo_response(user_input.strip())
 
     # Simulate a delay to mimic processing time
     time.sleep(1)
