@@ -2,7 +2,7 @@ import streamlit as st
 import time
 
 # Set up the Streamlit page with a title and icon
-st.set_page_config(page_title="Twitter Content Creator", page_icon=":speech_balloon:")
+st.set_page_config(page_title="Agent Baani", page_icon=":speech_balloon:")
 
 # Initialize session state variables for chat control
 if "messages" not in st.session_state:
@@ -44,8 +44,12 @@ def get_demo_response(user_input):
 
 
 # Main chat interface setup
-st.title("Content Generator")
-st.write("I can create your posts and content for you")
+st.title("Agent Baani")
+st.write(
+    """As an AI copilot  for making posts on Social Media, I will assist you with making an engaging copy.
+
+Made By Juggernot.ai """
+)
 
 # Display existing messages in the chat
 for message in st.session_state.messages:
