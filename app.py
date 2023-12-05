@@ -17,12 +17,12 @@ demo_responses = {
         "text": "Got it! Here is the updated copy for your Tweet. \n\n 🏆 Succeed at social media by posting frequently using Juggernot's AI [Make a month's worth of posts in minutes ⚡] \n\n We're thrilled to announce the launch of Juggernot's GPT-Agent for posting on social media. It's a reliable copilot that can write, design, and publish posts in ⌛ minutes. \n\n Try it out: https://bit.ly/3G18m4J \n\n #ContentMarketing #AI #SocialMedia \n\n We have changed and replaced the words as per your feedback. \n\n Do you want to move ahead with making the creative for this copy?",
     },
     "Sure, go ahead": {
-        "images": ["./photos/dalle1.png"],
+        "images": ["./photos/va1.png"],
         "text": "Creative Summary: \n\n - **Template type:** We are using the “Announcements” template. \n\n - **Brand Colors**: Applied the brand's signature color scheme for visual consistency. \n\n - **Logo Placement**: Strategically positioned the logo for optimal visibility. \n\n - **Font Style**: Employed the brand's official font for textual coherence which is Roboto Mono. \n\n - **Imagery Style**: Selected imagery that aligns with the brand's aesthetic. \n\n - **Compliance with Guidelines**: Ensured all elements adhere to the brand's style guide.",
     },
     "Can you give me another option? Keep using the Announcements Template.": {
         "text": "Sure! Here is another version of the creative. \n",
-        "images": ["./photos/dalle2.png"],
+        "images": ["./photos/va2.png"],
         "text": "We are still using the “Announcements template” however, we have changed the image and background based on the design of your recent posts that performed well online. \n What do you think of this option?"
     },
     "This works.": {
