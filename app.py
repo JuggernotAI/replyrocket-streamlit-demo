@@ -18,7 +18,7 @@ demo_responses = {
     },
     "sure, go ahead": {
         "images": ["./photos/va1.png"],
-        "text": "Creative Summary: \n\n - **Template type:** We are using the “Announcements” template. \n\n - **Brand Colors**: Applied the brand's signature color scheme for visual consistency. \n\n - **Logo Placement**: Strategically positioned the logo for optimal visibility. \n\n - **Font Style**: Employed the brand's official font for textual coherence which is Roboto Mono. \n\n - **Imagery Style**: Selected imagery that aligns with the brand's aesthetic. \n\n - **Compliance with Guidelines**: Ensured all elements adhere to the brand's style guide.",
+        "text": "Creative Summary: \n\n - **Template type:** We are using the “Announcements” template. \n\n - **Brand Colors**: Applied the brand's signature color scheme for visual consistency. \n\n - **Logo Placement**: Strategically positioned the logo for optimal visibility. \n\n - **Font Style**: Employed the brand's official font for textual coherence which is Roboto Mono. \n\n - **Imagery Style**: Selected imagery that aligns with the brand's aesthetic. \n\n - **Compliance with Guidelines**: Ensured all elements adhere to the brand's style guide. \n\n Would you like to use this creative and proceed with adding it to your content calendar?",
     },
     "can you give me another option? keep using the announcements template.": {
         "text": "Sure! Here is another version of the creative. \nWe are still using the “Announcements template” however, we have changed the image and background based on the design of your recent posts that performed well online. \n What do you think of this option?",
