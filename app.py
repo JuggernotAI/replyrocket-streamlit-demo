@@ -30,8 +30,8 @@ demo_responses = {
     "yeah okay": {
         "text": "When do you plan to make this post?"
     },
-    "tomorrow at 9 am": {
-        "text": "Great! I have added the media assets and its schedule to your Content Planner. \n\n The post will be automatically deployed according to the schedule, and we will inform you once it's successfully published across all your designated social media channels. \n\n Is there anything else I can do for you?"
+    "post it right now": {
+        "text": "Sure! ⚙️ Preparing the post for deployment... \n\n 💌 Publishing the post... \n\n Your post has been published on twitter. 🙌🏼  \n\n I have added the media assets and marked the post on your Content Planner. Is there anything else I can do for you?"
     },
 }
 
