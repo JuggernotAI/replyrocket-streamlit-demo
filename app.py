@@ -31,7 +31,11 @@ demo_responses = {
         "text": "When do you plan to make this post?"
     },
     "post it right now": {
-        "text": "Sure! \n\n Your post has been published on twitter. 🙌🏼  \n\n I have added the media assets and marked the post on your Content Planner. Is there anything else I can do for you?"
+        "text": "Say the magic words 🪄"
+    },
+    {
+     "Sonorus": {  
+        "text": "✨ Your wish is my command \n\n Your post has been published on twitter. 🙌🏼  \n\n I have added the media assets and marked the post on your Content Planner. Is there anything else I can do for you?"
     },
 }
 
