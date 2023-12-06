@@ -28,7 +28,7 @@ demo_responses = {
         "text": "Great! Shall we proceed with adding this to your Content Planner?"
     },
     "yeah okay": {
-        "text": "When do you plan to make this post? Please let me know in the following format: \n\n - DD:MM:YYYY - Example: 01/06/2024 \n\n - Hours:Minutes AM/PM - Example: 9 AM"
+        "text": "When do you plan to make this post?"
     },
     "tomorrow at 9 am": {
         "text": "Great! I have added the media assets and its schedule to your Content Planner. \n\n The post will be automatically deployed according to the schedule, and we will inform you once it's successfully published across all your designated social media channels. \n\n Is there anything else I can do for you?"
