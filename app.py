@@ -37,6 +37,7 @@ demo_responses = {
      "Sonorus": {  
         "text": "✨ Your wish is my command \n\n Your post has been published on twitter. 🙌🏼  \n\n I have added the media assets and marked the post on your Content Planner. Is there anything else I can do for you?"
     },
+    }
 }
 
 
